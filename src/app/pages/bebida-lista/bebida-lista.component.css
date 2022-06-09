@@ -1,0 +1,44 @@
+.main{
+    background: rgb(153, 153, 153) ; 
+   width:100vw;
+    height: 100vw;
+}
+.input-container{
+    position: relative;
+    width: 100%;}
+
+label{
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    color:  #570464;
+      }
+      input{
+        font-size: 15px;
+        outline: none;
+        border-radius: 50px;
+        height: 44px;
+        width: 50%;
+        padding: 14px 30px 14px 70px;
+        border: 1px solid rgb(60, 4, 79);
+        transition: 500ms ease-in-out;
+        background: rgb(251, 177, 247);
+        margin-bottom: 20px;
+    }
+    input::placeholder{
+        color: #570464;
+        transition: 200ms ease-in-out;
+    }
+    input:hover{
+        border: 1px solid #8377ec;
+    }
+    input:hover::placeholder{
+        color: #4631fe;
+    }
+    input:focus{
+        border: 1px solid #5d31fe;
+    }
+
+    input:focus::placeholder{
+        color: #313bfe;
+    }

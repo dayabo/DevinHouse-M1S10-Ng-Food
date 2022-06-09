@@ -1,0 +1,39 @@
+
+<div class="album  main vh-100 row justify-content-center  align-items-center vw-100">
+    <div class="container-fluid vh-100 vw-100">
+      <div class="menu col align-self-top vw-100 mb-5 mt-2">
+        <img src="assets/imag/chef.png" class="card-img img-menu align-items-end" alt="..." >
+          
+        <h1 class="titulo">MENU</h1>
+        
+      </div>
+     
+   
+      <div class="row  justify-content-center align-items-center card vw-100">
+        
+        <div 
+        *ngFor="let menu of listaMenu"
+        (click)="redirecionar(menu.path)" 
+      
+        class="  row align-items-end mt-5 " id={{menu.card}}>
+        
+        <div class="card-body text-center col align-self-start mt-2">
+          <h2 class="card-text mb-4">{{menu.titulo}}</h2>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="btn-group " >
+              <button type="button" class="btn btn-sm btn-outline-secondary" id="{{menu.button}}" (click)="clickMenu(menu.titulo)">Ver opções</button>
+            </div>
+          </div>
+        </div>
+       
+        <img src={{menu.enderecoImagem}} class="card-img align-items-end" alt="..." >
+          <div class="card  shadow-sm"id={{menu.cardFooter}}> 
+        </div>
+      </div>
+
+     
+      </div>
+      
+      </div>
+    </div>
+ 

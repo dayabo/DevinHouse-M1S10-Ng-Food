@@ -1,0 +1,23 @@
+
+.card-main{
+    border: 2px solid rgb(60, 4, 79); 
+    width: 300px;
+    height: 50%;
+}
+
+button{
+    border: nome;
+    border-radius: 8px;
+    border: 1px solid rgb(60, 4, 79);       
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+     color:  #570464;
+    background: rgb(251, 131, 245);
+}
+button:hover{
+    border: 1px solid #8377ec;
+    color: #4631fe;
+    transition: 200ms ease-in-out;
+    background: rgb(251, 177, 247);
+}

@@ -1,0 +1,84 @@
+
+<div class="album py-5 main">
+    <div class="container">
+        <div *ngIf="listaPedido.length === 0 && vazio" class="row">
+            <h2 class="text-center mt-5"> Não há pedidos adicionados ...</h2>
+        </div>
+        <div *ngIf="finalizado" class="row">
+          <h2 class="text-center mt-5"> Seu pedido já está em preparo !!!</h2>
+  
+      </div>
+        <div *ngIf="listaPedido.length !== 0" class="d-flex justify-content-evenly align-items-center mb-5">
+         
+        
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary"  >
+              <div>
+              <i class="material-icons">
+                point_of_sale</i>
+             </div>
+              Total: {{TotalConta() |currency:'BRL'}}</button>
+          </div>
+
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary" id="finalizar"  (click)=" salvarPedido()">
+              <div>
+              <i class="material-icons">
+                shopping_cart</i>
+             </div>
+              Finalizar Pedido</button>
+          </div>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary"  (click)=" removerTudo()">
+              <div>
+              <i class="material-icons">
+              delete_forever</i>
+             </div>
+              Excluir todos Itens</button>
+          </div>
+         <div class="mb-3">
+           <label for="qtd" class="form-label">Alterar Quantidade</label>
+           <input class="form-control" [(ngModel)]="quantidade" id="qtd" />
+          </div>
+        </div>
+        
+       
+
+    <div class="container mb-5 mt-5">
+  <ul class="list-group list-group-flush " >
+    <li class="list-group-item d-flex justify-content-between align-items-center  list-group-item-danger"
+     *ngFor="let item of listaPedido; let index = index;">
+      
+        <div class="  col-1 ms-2 me-auto">
+          <img src={{item?.enderecoImagem}} alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+        </div>
+       
+      
+      <div class=" col-1 ms-2 me-auto text-center fw-bold">{{item?.titulo}}</div>
+      <div class="  col-1 ms-5 me-5">{{item?.qtd}} un</div>
+      <div class="  col-2 ms-2 me-auto">{{item?.valorUni |currency:'BRL'}} un</div>
+      <div class="  col-2 ms-2 me-auto"> {{item?.valorTotal |currency:'BRL'}}</div>
+
+      <div class=" col-2 ms-2 me-auto">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary me-2"(click)="diminuirQuantidade(item,index)" >-</button>
+        
+          <button type="button" class="btn btn-sm btn-outline-secondary" (click)="aumentarQuantidade(item)">+</button>
+        </div>
+       </div>
+       <div class="btn-group" >
+        <button type="button" class="btn btn-sm btn-outline-secondary" (click)=" removerItem(item)"><i class="material-icons">
+          delete</i></button>
+      </div>
+
+    </li>
+  </ul>
+</div>
+
+
+
+</div>
+</div>

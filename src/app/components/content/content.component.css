@@ -1,0 +1,158 @@
+.album {
+    background: rgb(153, 153, 153);
+    width: 100vw;
+}
+.card{
+    background: rgb(153, 153, 153);
+    width: 100vw;
+    height: 90%;
+ border: none;
+}
+
+#principalB{
+
+    background: rgb(238, 187, 246);
+    height:55% ;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+   position: relative;
+   z-index: 5;
+   box-shadow: 0  0.5rem 1rem  #fb00ee, inset 0 -1px 0 #fb00ee;
+}
+.card-img{
+    height:50% ;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+}
+#finalB{
+    height:20% ;
+    width: 100%;
+    background: rgb(66, 2, 63);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: -5;  
+}
+
+
+#principalC{
+
+    background: rgb(157, 153, 173);
+    height:55% ;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+   position: relative;
+   z-index: 5;
+   box-shadow: 0  0.5rem 1rem  #2100fb, inset 0 -1px 0 #fb00ee;
+}
+
+
+
+#finalC{
+    height:20% ;
+    width: 100%;
+    background: rgb(5, 22, 122);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: -5;  
+}
+.img-menu{
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    left:38%;
+    z-index: 5; 
+    margin-top: 1%;
+}
+.menu{
+  background: rgb(153, 153, 153) ; 
+  border: none;
+}
+
+.titulo{
+    position: absolute;
+    left:43%;
+    z-index: 10; 
+    margin-top: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: rgb(86, 16, 104);
+  
+} 
+.card-text{
+    color: rgb(86, 16, 104);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#buttonB{
+    border: nome;
+    border-radius: 8px;
+    border: 1px solid rgb(60, 4, 79);       
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+     color:  #310464;
+    background: rgb(251, 131, 245);
+    height: 50px;
+}
+#buttonB:hover{
+    border: 1px solid #8377ec;
+    color: #4631fe;
+    transition: 200ms ease-in-out;
+    background: rgb(251, 177, 247);
+}
+#buttonC{
+    border: nome;
+    border-radius: 8px;
+    border: 1px solid rgb(19, 4, 79);       
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+     color:  #570464;
+    background: rgb(73, 18, 226);
+    height: 50px;
+}
+#buttonC:hover{
+    border: 1px solid #c977ec;
+    color: #bd31fe;
+    transition: 200ms ease-in-out;
+    background: rgb(199, 177, 251);
+}
+
+#buttonB{
+    animation-name:piscaB;
+    animation-duration:1s ;
+    animation-iteration-count: infinite;
+}
+@keyframes piscaB{
+    0%{
+        background: rgb(251, 131, 245);
+    }
+    50%{
+        background: rgb(147, 24, 141);
+    }
+    100%{
+        background: rgb(251, 131, 245);
+    }
+}
+#buttonC{
+    animation-name:piscaC;
+    animation-duration:1s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes piscaC{
+    0%{
+        background: rgb(199, 177, 251);
+    }
+    50%{
+        background: rgb(113, 69, 235);
+    }
+    100%{
+        background: rgb(199, 177, 251);
+    }
+}

@@ -1,0 +1,169 @@
+{
+  "bebidas": [
+    {
+      "id": 1,
+      "titulo": "Coca Cola Lata",
+      "enderecoImagem": "assets/imag/coca.jpg",
+      "descricao": "Coca Cola Lata",
+      "valorUni": 8,
+      "qtd": 1,
+      "valorTotal":8
+    },
+    {
+      "id": 2,
+      "titulo": "Cerveja Skol Lata",
+      "enderecoImagem": "assets/imag/skolLata.jpg",
+      "descricao": "Cerveja Skol Lata",
+      "valorUni": 10,
+      "qtd": 1,
+      "valorTotal":10
+    },
+    {
+      "id": 3,
+      "titulo": "Jarra de Suco de Laranja",
+      "enderecoImagem": "assets/imag/jarra.jpg",
+      "descricao": "Jarra de Suco de Laranja 1l",
+      "valorUni": 20,
+      "qtd": 1,
+      "valorTotal":20
+    },
+    {
+      "id": 4,
+      "titulo": "Água Sem Gás",
+      "enderecoImagem": "assets/imag/agua.jpeg",
+      "descricao": "Água ",
+      "valorUni": 3,
+      "qtd": 1,
+      "valorTotal":3
+    },
+    {
+      "id": 5,
+      "titulo": "Cerveja Skol  long neck",
+      "enderecoImagem": "assets/imag/skol.webp",
+      "descricao": "Cerveja Skol  long neck",
+      "valorUni": 15,
+      "qtd": 1,
+      "valorTotal":15
+    },
+    {
+      "id": 6,
+      "titulo": "Whiskey",
+      "enderecoImagem": "assets/imag/whiskey.jpg",
+      "descricao": "Whiskey",
+      "valorUni": 25,
+      "qtd": 1,
+      "valorTotal":25
+    },
+    {
+      "id": 7,
+      "titulo": "Batida de Morango",
+      "enderecoImagem": "assets/imag/batida.jpg",
+      "descricao": "Batida de Morango",
+      "valorUni": 20,
+      "qtd": 1,
+      "valorTotal":20
+    },
+    {
+      "id": 8,
+      "titulo": "Guarana Lata",
+      "enderecoImagem": "assets/imag/guarana.webp",
+      "descricao": "Guarana Lata Antartica",
+      "valorUni": 6,
+      "qtd": 1,
+      "valorTotal":6
+    },
+    {
+      "id": 9,
+      "titulo": "Drinks",
+      "enderecoImagem": "assets/imag/drinks.jpg",
+      "descricao": "Drinks",
+      "valorUni": 30,
+      "qtd": 1,
+      "valorTotal":30
+    }
+  ],
+  "comidas": [
+    {
+      "id": 1,
+      "titulo": "Hotdog",
+      "enderecoImagem": "assets/imag/hotdog.jpg",
+      "descricao": "hotdog",
+      "valorUni": 10,
+      "qtd": 1,
+      "valorTotal":10
+    },
+    {
+      "id": 2,
+      "titulo": "Lanche Natural",
+      "enderecoImagem": "assets/imag/natural.jpg",
+      "descricao": "Lanche Natural",
+      "valorUni": 15,
+      "qtd": 1,
+      "valorTotal":15
+    },
+    {
+      "id": 3,
+      "titulo": "X-Salada",
+      "enderecoImagem": "assets/imag/xsalada.jpg",
+      "descricao": "pizza",
+      "valorUni": 25,
+      "qtd": 1,
+      "valorTotal":25
+    },
+    {
+      "id": 4,
+      "titulo": "Pastel de Carne",
+      "enderecoImagem": "assets/imag/pastel.png",
+      "descricao": "Pastel de Carne",
+      "valorUni": 10,
+      "qtd": 1,
+      "valorTotal":10
+    },
+    {
+      "id": 5,
+      "titulo": "Pastel de Queijo",
+      "enderecoImagem": "assets/imag/pastelqj.jpg",
+      "descricao": "Pastel de Queijo",
+      "valorUni": 12,
+      "qtd": 1,
+      "valorTotal":12
+    },
+    {
+      "id": 6,
+      "titulo": "Mini-Pastel",
+      "enderecoImagem": "assets/imag/minipastel.jpg",
+      "descricao": "Mini-Pastel",
+      "valorUni": 15,
+      "qtd": 1,
+      "valorTotal":15
+    },
+    {
+      "id": 7,
+      "titulo": "Pizza Marguerita",
+      "enderecoImagem": "assets/imag/marguerita.jpg",
+      "descricao": "Pizza Marguerita",
+      "valorUni": 35,
+      "qtd": 1,
+      "valorTotal":35
+    },
+    {
+      "id": 8,
+      "titulo": "Pizza de Calabresa",
+      "enderecoImagem": "assets/imag/doce.jpg",
+      "descricao": "Pizza de Calabresa",
+      "valorUni": 55,
+      "qtd": 1,
+      "valorTotal":55
+    },
+    {
+      "id": 9,
+      "titulo": "Pizza Doce",
+      "enderecoImagem": "assets/imag/calabresa.png",
+      "descricao": "Pizza Doce",
+      "valorUni": 45,
+      "qtd": 1,
+      "valorTotal":45
+    }
+    
+  ]
+}

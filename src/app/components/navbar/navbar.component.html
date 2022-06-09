@@ -1,0 +1,35 @@
+<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar vw-100">
+   <a class="navbar-brand p-0 me-2" href="/" aria-label="Bootstrap">
+        <img
+          src="assets/imag/girl.png"
+          width="100"
+          height="100"
+          class="d-inline-block align-text-center ms-5 rounded-circle"
+        />
+        <span class="navbar-brand mb-0 h1 ms-3">NG-FOOD</span>
+      </a>
+    <div class="navbar-nav-scroll">
+      <ul class="navbar-nav bd-navbar-nav flex-row">
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="" [routerLinkActiveOptions]="{exact:true}" >Cardápio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " routerLinkActive="active"  routerLink="/bebidas" >Bebidas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link "  routerLinkActive="active" routerLink="/comidas">Comidas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link "  routerLinkActive="active" routerLink="/pedido">Pedido</a>
+        </li>
+       
+      </ul>
+    </div>
+  
+   
+    <button class="badge badge-pill pedido btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" routerLinkActive="active" routerLink="/pedido"> 
+      <div> <i class="material-icons orange600 ">
+        shopping_basket</i>
+      </div>
+      <p class="badge badge-pill btn btn-primary me-1">{{qtdTotalItem()}} </p> Pedidos </button>
+  </header>

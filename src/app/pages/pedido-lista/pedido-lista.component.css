@@ -1,0 +1,70 @@
+.main{
+    background: rgb(153, 153, 153) ; 
+   width:100vw;
+    height: 100vw;
+}
+
+h2{
+    color: #570464;
+}
+button{
+    border: nome;
+    border-radius: 8px;
+    border: 1px solid rgb(60, 4, 79);       
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+     color:  #570464;
+    background: rgb(251, 131, 245);
+}
+button:hover{
+    border: 1px solid #8377ec;
+    color: #4631fe;
+    transition: 200ms ease-in-out;
+    background: rgb(251, 177, 247);
+}
+
+#finalizar{
+    animation-name:pisca;
+    animation-duration:1s ;
+    animation-iteration-count: infinite;
+}
+@keyframes pisca{
+    0%{
+        background: rgb(251, 131, 245);
+    }
+    50%{
+        background: rgb(207, 72, 200);
+    }
+    100%{
+        background: rgb(251, 131, 245);
+    }
+}
+
+input{
+    font-size: 15px;
+    outline: none;
+    border-radius: 50px;
+    height: 44px;
+    width: 50%;
+    padding: 14px 30px 14px 70px;
+    border: 1px solid rgb(60, 4, 79);
+    transition: 500ms ease-in-out;
+    background: rgb(251, 177, 247);
+    margin-bottom: 20px;
+    color: #570464;
+    transition: 200ms ease-in-out;
+}
+
+input:hover{
+    border: 1px solid #8377ec;
+    color: #4631fe;
+}
+
+input:focus{
+    border: 1px solid #5d31fe;
+}
+
+.form-label{
+    color: #570464;
+}
